@@ -7,18 +7,22 @@ h1 {
 .column {
   width: 300px;
   float: left;
-  border: grey;
-  border-width: 280px;
+  border: solid grey;
+  border-width: 20px;
   background-color: whitesmoke;
-  padding: 20px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 
 
-.sidebar2 {
+.column2 {
   width: 300px;
   float: right;
-  background-color: grey;
+  border: solid grey;
+  border-width: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 5px
 }
 
 
@@ -36,11 +40,12 @@ body {
 }
 
 .center {
-  width: 60%;
-  float: right;
+  display: flex;
+  width: auto;
   border: solid grey;
   border-width: 8px;
   background-color: whitesmoke;
   margin-bottom: 5px;
   align-items: center;
+  margin: 5px;
 }
