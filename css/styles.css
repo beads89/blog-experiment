@@ -5,7 +5,7 @@ h1 {
 }
 
 .sidebarl {
-  width: 300px;
+  width: 25%;
   float: left;
   background-color:grey;
 }
@@ -30,3 +30,10 @@ body {
   background-color: black;
 }
 
+.center {
+  width: 60%;
+  border: solid grey;
+  border-width: 8px;
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+}
