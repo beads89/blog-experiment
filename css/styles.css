@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: black;
+}
+
+.sidebarl {
+  width: 300px;
+  float: left;
+  background-color:grey;
+}
+
+.sidebar2 {
+  width: 300px;
+  float: right;
+  background-color: grey;
+}
+
+
+.headbox {
+  width: 100%;
+  border: solid blueviolet;
+  border-width: 10px;
+  background-color: orangered;
+  margin-bottom: 10px;
+  padding: 4px;
+}
