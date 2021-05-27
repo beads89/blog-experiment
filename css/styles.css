@@ -4,11 +4,16 @@ h1 {
   color: black;
 }
 
-.sidebarl {
-  width: 25%;
+.column {
+  width: 300px;
   float: left;
-  background-color:grey;
+  border: grey;
+  border-width: 280px;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px;
 }
+
 
 .sidebar2 {
   width: 300px;
@@ -32,8 +37,10 @@ body {
 
 .center {
   width: 60%;
+  float: right;
   border: solid grey;
   border-width: 8px;
   background-color: whitesmoke;
   margin-bottom: 5px;
+  align-items: center;
 }
